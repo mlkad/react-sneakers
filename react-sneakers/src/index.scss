@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -12,31 +12,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
+p {
+  color: #000;
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 body {
   background-color: #A5D364;
 
-  .wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 1.25rem;
-  background: #FFF;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
-  max-width: 95%;
-  height: 2000px;
-  margin: 2.5% auto;
-  }
+}
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1.25rem;
+background: #FFF;
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+max-width: 95%;
+height: 2000px;
+margin: 2.5% auto;
+padding: 2.3rem;
 }
 
 .header {
-  padding: 2.3rem;
+  padding-bottom: 2.3rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -48,26 +57,59 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-direction: row;
   }
   .header__left {
     gap: 1rem;
   }
   .header__right {
     gap: 2rem;
+
+    li {
+      flex-wrap: wrap;
+      display: flex;
+      gap: 0.5rem
+    }
   }
-  li {
-    display: flex;
-    gap: 0.5rem
-  }
+
 }
 
 .content {
   display: flex;
-  align-items: start !important;
-  justify-content: start ;
+  align-items: flex-start !important;
+  justify-content: flex-start ;
+  width: 100%;
+  padding: 2.3rem 0 2.3rem 0;
 
-  h1 {
-    align-self: flex-start !important;
-  }
 }
+
+.cards {
+  width: 13.125rem;
+height: 16.25rem;
+
+  .card {
+    width: 13.125rem;
+height: 16.25rem;
+border-radius: 2.5rem;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.04);
+transition: 0.4s;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0 1.88rem;
+gap: 1.5rem;
+
+  img {
+  width: 8.3125rem;
+  height: 7rem;
+}
+
+&:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+  }
+
+}
+

@@ -8,9 +8,9 @@ function App() {
     <div className="wrapper">
       <header className="header">
         <div className="header__left">
-          <img width={40} height={40} src="/assets/logo.png" alt="" />
+          <img width={50} height={50} src="/assets/logo.png" alt="" />
           <div className="header__info">
-            <h3>React sneakers</h3>
+            <h3>REACT SNEAKERS</h3>
             <p>The best sneaker store</p>
           </div>
         </div>
@@ -32,6 +32,18 @@ function App() {
       </header>
       <div className="content">
         <h1>All trainers</h1>
+        <div className="cards">
+          <div className="card">
+            <img src="/assets/image 5.jpg" alt="" />
+            <p>Men's Nike Blazer Mid Suede Sneakers</p>
+            <div>
+              <div className="price">
+                <span>Price:</span>
+                <b>100$</b>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
