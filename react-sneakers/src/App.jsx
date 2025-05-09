@@ -33,16 +33,170 @@ function App() {
       <div className="content">
         <h1>All trainers</h1>
         <div className="cards">
+
           <div className="card">
-            <img src="/assets/image 5.jpg" alt="" />
-            <p>Men's Nike Blazer Mid Suede Sneakers</p>
-            <div>
-              <div className="price">
-                <span>Price:</span>
-                <b>100$</b>
+            <div className="card__content">
+              <img src="/assets/s1.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
               </div>
             </div>
           </div>
+
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s2.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s3.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s4.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s5.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s6.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s7.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s8.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s9.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s10.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s2.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card__content">
+              <img src="/assets/s1.jpg" alt="" />
+              <p>Men's Nike Blazer Mid Suede Sneakers</p>
+              <div className="card__info">
+                <div className="card__price">
+                  <span>Price:</span>
+                  <b>100$</b>
+                </div>
+                <img src="/assets/add.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

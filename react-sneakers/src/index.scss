@@ -39,7 +39,7 @@ body {
 background: #FFF;
 box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
 max-width: 95%;
-height: 2000px;
+height: auto;
 margin: 2.5% auto;
 padding: 2.3rem;
 }
@@ -60,6 +60,9 @@ padding: 2.3rem;
   }
   .header__left {
     gap: 1rem;
+    p{
+      color: #9D9D9D;
+    }
   }
   .header__right {
     gap: 2rem;
@@ -75,20 +78,24 @@ padding: 2.3rem;
 
 .content {
   display: flex;
-  align-items: flex-start !important;
-  justify-content: flex-start ;
+  align-items: flex-start ;
   width: 100%;
   padding: 2.3rem 0 2.3rem 0;
-
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .cards {
-  width: 13.125rem;
-height: 16.25rem;
+width: 100%;
+flex-direction: row;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+justify-content: center ;
 
   .card {
-    width: 13.125rem;
-height: 16.25rem;
+width: 18.5rem;
+    height: auto;
 border-radius: 2.5rem;
 background: #FFF;
 box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.04);
@@ -97,18 +104,52 @@ cursor: pointer;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0 1.88rem;
-gap: 1.5rem;
-
-  img {
-  width: 8.3125rem;
-  height: 7rem;
-}
+margin-bottom: 2rem;
 
 &:hover {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
 }
+.card__content {
+  display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 80%;
+gap: 2rem;
+padding: 2rem 0;
+  p {
+    font-size: 1.2rem;
+  }
+  img {
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
+}
 
+
+  .card__info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+    img {
+      width: 2.4rem;
+height: 2.4rem;
+    }
+    .card__price {
+      display: flex;
+      flex-direction: column;
+      span {
+        color: #BDBDBD;
+font-size: 0.8rem;
+text-transform: uppercase;
+      }
+      b {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
   }
 
 }
