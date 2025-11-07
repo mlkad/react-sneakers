@@ -31,9 +31,14 @@ function App() {
         </ul>
       </header>
       <div className="content">
-        <h1>All trainers</h1>
+        <div>
+          <h1>All trainers</h1>
+          <div className="search-block">
+            <img src="/assets/search.svg" alt="Search" />
+            <input placeholder="Search..." type="text" />
+          </div>
+        </div>
         <div className="cards">
-
           <div className="card">
             <div className="card__content">
               <img src="/assets/s1.jpg" alt="" />
@@ -196,7 +201,6 @@ function App() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
