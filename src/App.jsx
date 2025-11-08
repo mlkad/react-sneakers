@@ -5,17 +5,17 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="wrapper">
-      <header className="header">
-        <div className="header__left">
+    <div className="flex flex-col items-center bg-white rounded-2xl shadow-lg m-10 p-10">
+      <header className="header w-full flex justify-between items-center border-b border-gray-200 pb-10">
+        <div className="flex items-center gap-4">
           <img width={50} height={50} src="/assets/logo.png" alt="" />
           <div className="header__info">
             <h3>REACT SNEAKERS</h3>
-            <p>The best sneaker store</p>
+            <p className="text-gray-400">The best sneaker store</p>
           </div>
         </div>
 
-        <ul className="header__right">
+        <ul className="flex items-center gap-8">
           <li>
             <img src="/assets/cart.svg" alt="" />
             <span>40$ </span>
@@ -30,7 +30,7 @@ function App() {
           </li>
         </ul>
       </header>
-      <div className="content">
+      <div className="flex flex-col items-start w-full py-10 gap-10">
         <div>
           <h1>All trainers</h1>
           <div className="search-block">
@@ -38,7 +38,7 @@ function App() {
             <input placeholder="Search..." type="text" />
           </div>
         </div>
-        <div className="cards">
+        <div className="flex flex-wrap justify-center gap-8 w-full">
           <div className="card">
             <div className="card__content">
               <img src="/assets/s1.jpg" alt="" />
